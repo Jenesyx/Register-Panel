@@ -1,0 +1,143 @@
+@import "../CSS/reset.css";
+
+body, input {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#register {
+    width: 800px;
+    height: 450px;
+    /* background: red; */
+    margin: 200px auto;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 14px 1px #000000; 
+    box-shadow: 3px 3px 14px 1px #000000;
+}
+
+#register .left {
+    float: left;
+    background: rgb(30,60,114);
+    background: linear-gradient(0, rgba(30,60,114,1) 8%, rgba(42,82,152,1) 90%);
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    padding-top: 130px;
+    color: #fff;
+    border-radius: 15px 0 0 15px;
+    -webkit-border-radius: 15px 0 0 15px;
+    -moz-border-radius: 15px 0 0 15px;
+    -ms-border-radius: 15px 0 0 15px;
+    -o-border-radius: 15px 0 0 15px;
+}
+
+#register p {
+    width: 200px;
+    margin: auto;
+    padding: 15px 0;
+}
+
+#register .left .signin-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 40px;
+    margin-top: 10px;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#register .left .signin-btn:hover {
+    background: #fff;
+    color: #000000;
+}
+
+#register .right {
+    float: right;
+    /* background: green; */
+    width: 500px;
+    height: 100%;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 0 15px 15px 0;
+    -webkit-border-radius: 0 15px 15px 0;
+    -moz-border-radius: 0 15px 15px 0;
+    -ms-border-radius: 0 15px 15px 0;
+    -o-border-radius: 0 15px 15px 0;
+}
+
+#register .right h2 {
+    color: blue;
+    margin-bottom: 30px;
+}
+
+#register .form .input {
+    background: #eaeef4;
+    width: 70%;
+    border: none;
+    margin-top: 10px;
+    padding: 15px 15px 15px 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#register .form .input:focus {
+    background: #e0e0e0;
+}
+
+#register .form .signup-btn {
+    background: #2a5298;
+    color: #fff;
+    margin-top: 20px;
+    padding: 15px 40px;
+    border: 1px solid #2a5298;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#register .form .signup-btn:hover {
+    color: #000000;
+    background: #fff;
+    border: 1px solid #2a5298;
+    cursor: pointer;    
+}
+
+#register .right .form .input-logo {
+    width: 25px;
+    position: relative;
+    top: 6px;
+    left: 35px;
+    opacity: 0.5;
+}
